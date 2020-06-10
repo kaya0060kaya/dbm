@@ -89,7 +89,7 @@
     {
       "storage": "1",
       "varName": "embed",
-      "message": ":x: | Bot şuanda başka odada.",
+      "message": ":x: | Bot ÅŸuanda baÅŸka odada.",
       "name": "Set Embed Description"
     },
     {
@@ -125,13 +125,13 @@
       "varName": "vckanal",
       "info": "2",
       "storage": "1",
-      "varName2": "vc-giriş",
+      "varName2": "vc-giriÅŸ",
       "name": "Store Voice Channel Info"
     },
     {
       "storage": "1",
       "varName": "embed",
-      "message": ":thumbsup: `${tempVars(\"text-isim\")}` kanalından gönderilen komut ile `${tempVars(\"vc-giriş\")}` kanalına katıldım.",
+      "message": ":thumbsup: `${tempVars(\"text-isim\")}` kanalÄ±ndan gÃ¶nderilen komut ile `${tempVars(\"vc-giriÅŸ\")}` kanalÄ±na katÄ±ldÄ±m.",
       "name": "Set Embed Description"
     },
     {
@@ -165,7 +165,7 @@
     {
       "storage": "1",
       "varName": "embed",
-      "message": ":x: | Yanlış komut kullanımı. Doğru Kullanım ${tempVars(\"prefix\")}çal [Bağlantı veya Metin]",
+      "message": ":x: | YanlÄ±ÅŸ komut kullanÄ±mÄ±. DoÄŸru KullanÄ±m ${tempVars(\"prefix\")}Ã§al [BaÄŸlantÄ± veya Metin]",
       "name": "Set Embed Description"
     },
     {
@@ -187,7 +187,7 @@
       "info": "1",
       "infoIndex": "1",
       "storage": "1",
-      "varName": "yazı",
+      "varName": "yazÄ±",
       "name": "Store Command Params"
     },
     {
@@ -199,7 +199,7 @@
     },
     {
       "storage": "1",
-      "varName": "yazı",
+      "varName": "yazÄ±",
       "comparison": "5",
       "value": "\"https://www.youtube.com/watch?v=\"",
       "iftrue": "0",
@@ -209,7 +209,7 @@
       "name": "Check Variable"
     },
     {
-      "url": "${tempVars(\"yazı\")}",
+      "url": "${tempVars(\"yazÄ±\")}",
       "seek": "0",
       "volume": "20",
       "passes": "1",
@@ -224,7 +224,7 @@
     {
       "storage": "1",
       "varName": "embed",
-      "message": "${tempVars(\"yutup\")} Aranıyor :mag_right: `${tempVars(\"yazı\")}`",
+      "message": "${tempVars(\"yutup\")} AranÄ±yor :mag_right: `${tempVars(\"yazÄ±\")}`",
       "name": "Set Embed Description"
     },
     {
@@ -241,13 +241,13 @@
     },
     {
       "type": "0",
-      "input": "${tempVars(\"yazı\")}",
+      "input": "${tempVars(\"yazÄ±\")}",
       "info0": "1",
       "info1": "1",
-      "apikey": "API KEYİNİZ",
+      "apikey": "API KEYÄ°NÄ°Z",
       "results": "1",
       "storage": "1",
-      "varName": "yazı",
+      "varName": "yazÄ±",
       "name": "YouTube Search"
     },
     {
@@ -261,7 +261,7 @@
       "name": "Delete Message"
     },
     {
-      "url": "${tempVars(\"yazı\")}",
+      "url": "${tempVars(\"yazÄ±\")}",
       "seek": "0",
       "volume": "20",
       "passes": "1",
@@ -270,7 +270,7 @@
       "name": "Play YouTube Video"
     },
     {
-      "video": "${tempVars(\"yazı\")}",
+      "video": "${tempVars(\"yazÄ±\")}",
       "info": "2",
       "storage": "1",
       "varName": "video-ismi",
@@ -285,7 +285,7 @@
     {
       "storage": "1",
       "varName": "embed",
-      "message": "${member}, `${tempVars(\"video-ismi\")}` isimli şarkıyı sıraya ekledim.",
+      "message": "${member}, `${tempVars(\"video-ismi\")}` isimli ÅŸarkÄ±yÄ± sÄ±raya ekledim.",
       "name": "Set Embed Description"
     },
     {
@@ -306,7 +306,7 @@
     {
       "storage": "1",
       "varName": "embed",
-      "message": "${member}, bota şarkı çaldırmak için bir odada olmalısın.",
+      "message": "${member}, bota ÅŸarkÄ± Ã§aldÄ±rmak iÃ§in bir odada olmalÄ±sÄ±n.",
       "name": "Set Embed Description"
     },
     {
