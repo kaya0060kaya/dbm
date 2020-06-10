@@ -1,0 +1,150 @@
+{
+  "name": "bekle",
+  "permissions": "NONE",
+  "restriction": "1",
+  "_id": "vFZgB",
+  "actions": [
+    {
+      "title": "",
+      "author": "",
+      "color": "RED",
+      "url": "",
+      "authorIcon": "",
+      "authorUrl": "",
+      "imageUrl": "",
+      "thumbUrl": "",
+      "timestamp": "false",
+      "debug": "false",
+      "text": "",
+      "year": "",
+      "month": "",
+      "day": "",
+      "hour": "",
+      "minute": "",
+      "second": "",
+      "storage": "1",
+      "varName": "embed",
+      "name": "Create Embed Message"
+    },
+    {
+      "member": "1",
+      "varName": "",
+      "info": "4",
+      "varName2": "",
+      "iftrue": "0",
+      "iftrueVal": "",
+      "iffalse": "2",
+      "iffalseVal": "16",
+      "name": "Check If Member"
+    },
+    {
+      "iftrue": "0",
+      "iftrueVal": "",
+      "iffalse": "2",
+      "iffalseVal": "12",
+      "name": "Check is Bot in Voice Channel"
+    },
+    {
+      "channel": "0",
+      "varName": "",
+      "info": "2",
+      "storage": "1",
+      "varName2": "vc-isim",
+      "name": "Store Voice Channel Info"
+    },
+    {
+      "server": "0",
+      "varName": "",
+      "storage": "1",
+      "varName2": "bot",
+      "name": "Get Bot as Member"
+    },
+    {
+      "member": "2",
+      "varName": "bot",
+      "info": "15",
+      "storage": "1",
+      "varName2": "vckanal",
+      "name": "Store Member Info"
+    },
+    {
+      "channel": "3",
+      "varName": "vckanal",
+      "info": "2",
+      "storage": "1",
+      "varName2": "vc-botisim",
+      "name": "Store Voice Channel Info"
+    },
+    {
+      "storage": "1",
+      "varName": "vc-isim",
+      "comparison": "2",
+      "value": "tempVars(\"vc-botisim\")",
+      "iftrue": "2",
+      "iftrueVal": "13",
+      "iffalse": "0",
+      "iffalseVal": "",
+      "name": "Check Variable"
+    },
+    {
+      "storage": "1",
+      "varName": "embed",
+      "message": ":x: | Bot þuanda baþka odada.",
+      "name": "Set Embed Description"
+    },
+    {
+      "storage": "1",
+      "varName": "embed",
+      "channel": "0",
+      "varName2": "",
+      "storage3": "1",
+      "varName3": "embed-obj",
+      "iffalse": "0",
+      "iffalseVal": "",
+      "messageContent": "",
+      "name": "Send Embed Message"
+    },
+    {
+      "name": "End Action Sequence"
+    },
+    {
+      "channel": "0",
+      "varName": "",
+      "name": "Join Voice Channel"
+    },
+    {
+      "action": "1",
+      "name": "Control Audio"
+    },
+    {
+      "storage": "0",
+      "varName": "",
+      "emoji": "4",
+      "varName2": "?",
+      "varName3": "",
+      "name": "Add Reaction"
+    },
+    {
+      "name": "End Action Sequence"
+    },
+    {
+      "storage": "1",
+      "varName": "embed",
+      "message": "${member}, bota þarký çaldýrmak için bir odada olmalýsýn.",
+      "name": "Set Embed Description"
+    },
+    {
+      "storage": "1",
+      "varName": "embed",
+      "channel": "0",
+      "varName2": "",
+      "storage3": "1",
+      "varName3": "embed-obj",
+      "iffalse": "0",
+      "iffalseVal": "",
+      "messageContent": "",
+      "name": "Send Embed Message"
+    }
+  ],
+  "comType": "0"
+}
